@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 from src import covid_dash, hospitals_tb
-print("\nData found, your API's working!!!")
-print()
+
 
 app = Flask(__name__)
 
