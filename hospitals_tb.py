@@ -25,7 +25,7 @@ def json_to_df(data):
             
     return pd.DataFrame(places)
 
-    list_health = ["hospital", "clinic", "doctors"]
+list_health = ["hospital", "clinic", "doctors"]
 
 dataframes = []
 for amenity in list_health: 
